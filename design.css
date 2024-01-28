@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+  }
+
+  body{
+    background-color: bisque;
+  }
+
+  #m1{
+    width: 180px;
+     height: 145px;
+    border-radius: 51%;
+    object-fit:cover;
+   
+}
+ #m1:hover{
+     border-color:black;
+ }
+
+#a1{
+    
+  color:black;
+  border: 2rem;
+  border-color: rgb(0, 85, 255);
+  
+  font-size: 53px;
+
+}
+
+img{
+    width: 140px;
+    height: 140px;
+    border-radius: 49%;
+    object-fit:cover;
+   
+    border:6px solid black;
+     
+}
+
+img:hover{
+  border-color: rgb(132, 0, 255);
+}
+
+
+.top{
+  
+    justify-content:center;
+    padding: 10px;
+    width: 700px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+#a1{
+    
+  color:rgb(12, 189, 44);
+  border: 2rem;
+  
+  size: 300px;
+  
+
+}
+
+
+
+.container{
+    display: flex;
+    justify-content:center;
+    
+    background-color: #ffffff;
+    gap: 5rem;
+  
+  padding: 10px;
+  width: 700px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 13%;
+  
+}
+
+.scoreboard{
+  display: flex;
+  justify-content: center;
+  gap:3rem;
+  font-size: 40px;
+  padding: 10px;
+  width: 700px;
+  
+  margin-left: 20%;
+  margin-right: 20%;
+  
+}
+#you,#comp {
+  color: aqua;
+  size: 160px ;
+}
+
+
+
+
+
+
+.stone{
+      
+    
+    text-align: center;
+    
+    padding-top: 5%;
+    width: 20%;
+
+
+}
+.paper{
+   
+   
+    text-align: center;
+   
+    padding-top: 5%;
+    width: 20%;
+   
+
+}
+.scissor{
+
+    
+   
+    text-align: center;
+    
+    padding-top: 5%;
+    width: 20%;
+ 
+    
+}
+
+
+
+
+
+
+
+
+.msg{
+     
+   
+  
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    
+    padding: 1rem;
+    border-radius: 1rem;
+  
+    
+   
+  
+     
+  
+}
+ 
